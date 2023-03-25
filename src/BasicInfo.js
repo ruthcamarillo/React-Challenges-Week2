@@ -1,19 +1,14 @@
-import React from "react";
+import React from 'react'
 
 function BasicInfo(props) {
     return (
         <div>
-            <h3>{props.person.name}</h3>
-            <h3>{props.person.number}</h3>
-            <h3>{props.person.dob}</h3>
+            <h2>Basic Info</h2>
+            <p>Name: {props.person.name}</p>
+            <p>Age: {props.person.number}</p>
+            <p>Email: {props.person.dob}</p>
         </div>
-
-    )
-
-
-
-
-
+    );
 }
 
 export default BasicInfo;
